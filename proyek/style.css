@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fdfaf6; color:#333; }
+header { background:linear-gradient(135deg,#3e8e41,#82c341); color:white; text-align:center; padding:4rem 1rem; position:relative; overflow:hidden; }
+header::before { content:''; position:absolute; top:-50px; left:-50px; width:200px; height:200px; border:5px solid rgba(255,255,255,0.3); border-radius:50%; transform:rotate(45deg);}
+header img { width:160px; height:160px; border-radius:50%; border:4px solid white; object-fit:cover; position:relative; z-index:1; }
+header h1 { margin:1rem 0 0.3rem 0; font-size:2.5rem; position:relative; z-index:1; }
+header p { margin:0.2rem 0; font-style:italic; position:relative; z-index:1; }
+main { max-width:800px; margin:2rem auto; padding:0 1rem; }
+section { margin-bottom:2rem; background:white; padding:2rem; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.05); }
+h2 { color:#3e8e41; margin-bottom:1rem; }
+ul li { margin-bottom:0.5rem; }
+.social-media a { margin-right:1rem; text-decoration:none; color:#3e8e41; font-weight:bold; transition:0.3s; }
+.social-media a:hover { color:#82c341; }
+.quote { font-style:italic; color:#555; margin-top:1rem; }
+form input, form textarea { width:100%; padding:0.7rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:6px; }
+form button { background:#3e8e41; color:white; border:none; padding:0.8rem 1.5rem; border-radius:6px; cursor:pointer; }
+form button:hover { background:#367336; }
+.comment-item { border-bottom:1px solid #eee; padding:0.7rem 0; }
+.comment-item p { margin:0.3rem 0 0 0; font-style:italic; }
